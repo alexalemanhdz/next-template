@@ -8,6 +8,12 @@
 
 Clone the repository an then run ```npm install``` in the folder.
 
+### Execution
+
++ ```npm run dev``` for developement run.
++ ```npm run build``` for optimized build.
++ ```npm run start``` for production run.
+
 ### Stack
 
 + **[React.js](https://reactjs.org/docs/getting-started.html)**
@@ -21,4 +27,5 @@ Clone the repository an then run ```npm install``` in the folder.
     * **/index.js**: *Main page for the Next.js application.*
 + **/redux**: *Directory for Redux file.*
     * **/store.js**: *Redux store for global states.*
++ **/next.config.js**: *Configuration file for next.js.*
 + **/server.js**: *Node.js file with server configuration.*
