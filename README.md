@@ -32,3 +32,8 @@ Clone the repository an then run ```npm install``` in the folder.
     * **/store.js**: *Redux store for global states.*
 + **/next.config.js**: *Configuration file for next.js.*
 + **/server.js**: *Node.js file with server configuration.*
+
+### To do
+
+- [ ] Setup configuration file for Prettier.
+- [ ] Setup configuration file for ESLint.
