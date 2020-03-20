@@ -16,10 +16,13 @@ Clone the repository an then run ```npm install``` in the folder.
 
 ### Stack
 
-+ **[React.js](https://reactjs.org/docs/getting-started.html)**
-+ **[React Redux](https://react-redux.js.org/introduction/quick-start)**
-+ **[Next.js](https://nextjs.org/docs/getting-started)**
-+ **[next-offline](https://github.com/hanford/next-offline#Documentation)**
++ **[React.js](https://reactjs.org/docs/getting-started.html)**: *Javascript framework.*
++ **[React Redux](https://react-redux.js.org/introduction/quick-start)**: *State container.*
++ **[Next.js](https://nextjs.org/docs/getting-started)**: *Ract framework.*
++ **[next-offline](https://github.com/hanford/next-offline#Documentation)**: *Offline functionality for PWAs.*
++ **[Material-UI](https://material-ui.com/getting-started/installation/)**: *React components library.*
++ **[Prettier](https://prettier.io/docs/en/install.html)**: *Javascript code formatter.*
++ **[ESLint](https://eslint.org/docs/user-guide/getting-started)**: *ECMAScript Linter.*
 
 ### Folder structure
 
