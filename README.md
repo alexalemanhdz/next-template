@@ -1,8 +1,19 @@
 # Next-template
 
+### Prerequisites
+
++ **[Node.js & npm](https://nodejs.org/en/download/)**: *Please be sure you have installed Node.js and npm module on your computer before running the application*
+
 ### Installation
 
 Clone the repository an then run ```npm install``` in the folder.
+
+### Stack
+
++ **[React.js](https://reactjs.org/docs/getting-started.html)**
++ **[React Redux](https://react-redux.js.org/introduction/quick-start)**
++ **[Next.js](https://nextjs.org/docs/getting-started)**
++ **[next-offline](https://github.com/hanford/next-offline#Documentation)**
 
 ### Folder structure
 
