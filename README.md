@@ -35,5 +35,6 @@ Clone the repository an then run ```npm install``` in the folder.
 
 ### To do
 
-- [ ] Setup configuration file for Prettier.
-- [ ] Setup configuration file for ESLint.
+- [x] Setup configuration file for Prettier.
+- [x] Setup configuration file for ESLint.
+- [ ] Lint last two warnings in Redux library.
