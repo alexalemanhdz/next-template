@@ -26,9 +26,11 @@ Clone the repository, then run ```npm install``` in the folder.
 
 ### Folder structure
 
++ **/lib**: *Custom libraries.*
+   * **/redux.jsx**: *Redux setup for Next.js.*
 + **/pages**: *Directory for pages displayed using Next.js. It includes routing.*
-    * **/index.js**: *Main page for the Next.js application.*
-+ **/redux**: *Directory for Redux file.*
+    * **/index.jsx**: *Main page for the Next.js application.*
++ **/redux**: *Directory for Redux files.*
     * **/store.js**: *Redux store for global states.*
 + **/next.config.js**: *Configuration file for next.js.*
 + **/server.js**: *Node.js file with server configuration.*
