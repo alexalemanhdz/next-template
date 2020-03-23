@@ -8,19 +8,19 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 
 app.prepare().then(() => {
-    createServer((req, res) => {
-        const parsedUrl = parse(req.url, true);
-        const { pathname } = parsedUrl;
+	createServer((req, res) => {
+		const parsedUrl = parse(req.url, true);
+		const { pathname } = parsedUrl;
 
-        if (pathname === '/service-worker.js') {
-            const filePath = join(__dirname, '.next', pathname)
+		if (pathname === '/service-worker.js') {
+			const filePath = join(__dirname, '.next', pathname);
 
-            app.serveStatic(req, res, filePath)
-        } else {
-            handle(req, res, parsedUrl);
-        }
-    }).listen(3000, err => {
-        if (err) throw err;
-        console.log('> Ready on http://localhost:3000');
-    });
+			app.serveStatic(req, res, filePath);
+		} else {
+			handle(req, res, parsedUrl);
+		}
+	}).listen(3000, err => {
+		if (err) throw err;
+		console.log('> Ready on http://localhost:3000');
+	});
 });
