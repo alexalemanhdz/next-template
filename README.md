@@ -6,7 +6,7 @@
 
 ### Installation
 
-Clone the repository an then run ```npm install``` in the folder.
+Clone the repository, then run ```npm install``` in the folder.
 
 ### Execution
 
