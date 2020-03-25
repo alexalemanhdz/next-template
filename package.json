@@ -7,7 +7,8 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "test": "npx eslint"
+    "test": "npx eslint",
+    "flow": "flow"
   },
   "author": "alexalemanhdz",
   "license": "ISC",
@@ -22,6 +23,8 @@
     "redux": "^4.0.5"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
@@ -30,6 +33,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
+    "flow-bin": "^0.121.0",
     "prettier": "1.19.1"
   }
 }

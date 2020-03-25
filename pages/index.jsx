@@ -1,10 +1,16 @@
-import React from 'react';
+// @flow
+import React, { type Node } from 'react';
 // import withRedux from 'lib/redux';
 
-function HomePage() {
+type Props = {
+	children: Node,
+	title?: string,
+};
+
+function HomePage({ children, title = 'Hello World' }: Props) {
 	return (
 		<div>
-			Welcome to Next.js!
+			<p>{title}</p>
 			<style global jsx>
 				{`
 					* {
