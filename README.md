@@ -41,3 +41,5 @@ Clone the repository, then run ```npm install``` in the folder.
 - [x] Setup configuration file for ESLint.
 - [ ] Lint last two warnings in Redux library.
 - [ ] Document fetching tool.
+- [ ] Document Flow.js.
+- [ ] Correctly configure Flow.js.
